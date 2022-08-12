@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::post('/message', [\App\Http\Controllers\ApiController::class, 'sendMessage']);

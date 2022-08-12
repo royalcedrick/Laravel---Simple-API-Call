@@ -22,5 +22,18 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - Run `php artisan key:generate`
 - Run `php artisan serve`
 
+Register or Create new user on todo app
+
+## API Documentation
+```
+POST /message
+```
+
+| Parameter                    | Type     | Default | Description     |
+|------------------------------|----------|---------|-----------------|
+| `conversation_id` (required) | `String` | `none`  | Conversation ID |
+| `message` (required)         | `String` | `none`  | Message         |
+
+
 Thank you
 Regards, Cedrick Drice
